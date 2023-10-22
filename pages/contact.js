@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import ContactForm from "@/components/ContactForm";
 import Title from "@/components/Title";
+import { FaArrowDown } from "react-icons/fa";
+
 
 function contact() {
   return (
@@ -12,15 +14,12 @@ function contact() {
           initial={{ scale: 0.5 }}
           whileInView={{ scale: 1.2 }}
           transition={{ duration: 1 }}
-          className="absolute text-white left-1/4 top-2/4 text-center font-sans font-bold md:text-4xl w-1/2 h-1/2 z-10 sm:text-2xl max-[640px]:text-xl"
+          className="absolute text-white left-1/4 top-2/4 text-center font-sans font-bold md:text-4xl w-1/2 h-1/2 z-10 sm:text-2xl max-[640px]:text-2xl"
         >
           Thank You for Trusting Us <br />
           To set up a Meeting, Mail us at <br />
-          <span className="text-[#d4af37]"> kazianamedia@gmail.com </span>
-          <br />
-          <br />
-          <br />
-          <span className="mt-20 sm:text-2xl max-[640px]:text-xl">Or</span>
+          <span className="text-[#d4af37]"> kazianamedia<br/>@gmail.com </span>
+          <FaArrowDown className="animate-bounce absolute bottom-20 left-1/2 text-2xl z-10" />
         </motion.h1>
         <video
           src="/videos/contactus.mp4"
