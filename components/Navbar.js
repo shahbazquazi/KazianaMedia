@@ -20,7 +20,7 @@ function Navbar() {
         <div className="grid grid-cols-2">
           <div className="flex justify-start items-end ml-5 h-20  max-[640px]:ml-0">
             <Link href="/">
-            <img src="/logo.svg" alt="KazianaMedia" className="h-10 m-5 max-[640px]:ml-2"/>
+            <img src="/logo.svg" alt="KazianaMedia" className="h-10 m-5 max-[640px]:ml-2 h-8"/>
             </Link>
           </div>
           <div className="flex justify-end items-end h-18 mr-16 mb-3 max-[640px]:mr-5 h-16">
