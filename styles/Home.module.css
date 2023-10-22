@@ -1,0 +1,64 @@
+.menuButton,
+.menuButtonOpen {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    /* border: 3px solid rgb(212,175,55); */
+}
+
+.menuButtonBurger {
+    width: 2rem;
+    height: 0.2rem;
+    background-color: rgb(212,175,55);
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+}
+
+.menuButtonBurger::after,
+.menuButtonBurger::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2rem;
+    height: 0.2rem;
+    background-color: rgb(212,175,55);
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+}
+
+.menuButtonBurger::before{
+    transform: translateY(-8px);
+}
+
+.menuButtonBurger::after {
+    transform: translateY(8px);
+}
+
+.menuButtonOpen .menuButtonBurger {
+    transform: translateX(-30px);
+    background-color: transparent;
+} 
+
+.menuButtonOpen .menuButtonBurger::before {
+    transform: rotate(45deg) translate(20px, -20px);
+}
+
+.menuButtonOpen .menuButtonBurger::after {
+    transform: rotate(-45deg) translate(20px, 20px);
+} 
+
+.hideElement {
+ visibility: hidden;
+}
+
+.showElement {
+ visibility: visible;
+}
