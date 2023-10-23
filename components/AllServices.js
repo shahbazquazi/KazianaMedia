@@ -34,7 +34,7 @@ function AllServices() {
         whileInView={{ x: "0%" }}
         transition={{ duration: 1.5 }}
       >
-        <h1 className="text-[#d4af37] m-5 font-sans font-bold z-10 lg:text-4xl md:text-3xl sm:text-4xl max-[640px]:text-3xl">
+        <h1 className="text-[#d4af37] m-5 font-sans font-bold text-center z-10 lg:text-4xl md:text-3xl sm:text-4xl max-[640px]:text-3xl">
           Web Development
         </h1>
         <span className="text-white text-center font-sans z-10 w-5/6 lg:text-2xl sm:text-2xl max-[640px]:text-2xl">

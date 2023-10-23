@@ -16,7 +16,7 @@ function Services() {
       <span className="text-[#d4af37]">Services</span> that helps to Grow your business fast{" "}
         
       </motion.h1>
-      <FaArrowDown className="animate-bounce absolute bottom-0 left-1/2 text-2xl invert z-10" />
+      <FaArrowDown className="animate-bounce absolute bottom-20 left-1/2 text-2xl invert z-10" />
       <video
         src="/videos/services.mp4"
         autoPlay
