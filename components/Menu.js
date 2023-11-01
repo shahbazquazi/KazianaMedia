@@ -49,19 +49,19 @@ function Menu() {
           </li>
         </Link>
         <div className="text-white flex justify-center w-screen space-x-10 text-xl">
-        <Link href="/">
+        <Link href="https://www.facebook.com/kazianamedia/" target='_blank'>
      <FaFacebookF className="hover:text-[#d4af37]"/>
      </Link>
-     <Link href="/">
+     <Link href="https://www.linkedin.com/company/kazianamedia/" target='_blank' >
      <FaLinkedinIn className="hover:text-[#d4af37]"/>
      </Link>
-     <Link href="/">
+     <Link href="https://twitter.com/KazianaMedia/" target='_blank'>
      <FaTwitter className="hover:text-[#d4af37]"/>
      </Link>
-     <Link href="/">
+     <Link href="https://www.instagram.com/kazianamedia/" target='_blank'>
      <FaInstagram className="hover:text-[#d4af37]"/>
      </Link>
-     <Link href="/">
+     <Link href="https://www.youtube.com/@KazianaMedia/" target='_blank'>
      <FaYoutube className="hover:text-[#d4af37]"/>
      </Link>
         </div>
