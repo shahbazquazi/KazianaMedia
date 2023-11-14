@@ -18,7 +18,7 @@ function contact() {
         >
           Thank You for Trusting Us <br />
           To set up a Meeting, Mail us at <br />
-          <span className="text-[#d4af37]"> kazianamedia<br/>@gmail.com </span>
+          <span className="text-[#d4af37]"> contact@<br/>kazianamedia.com </span>
           <FaArrowDown className="animate-bounce absolute bottom-20 left-1/2 text-2xl z-10" />
         </motion.h1>
         <video
