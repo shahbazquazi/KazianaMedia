@@ -24,7 +24,7 @@ function Footer() {
      </div>
      <div className='text-white mt-10 text-base flex justify-center items-center space-x-2'>
      <FaCopyright/>
-     <h1>2023 KazianaMedia</h1>
+     <h1>2024 KazianaMedia</h1>
      </div>
     </div>
   )
